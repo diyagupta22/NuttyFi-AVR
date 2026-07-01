@@ -1,0 +1,57 @@
+menu.cpu=Processor
+
+##############################################################
+
+nuttyfi328.name=NuttyFi 328
+
+# Upload Settings
+nuttyfi328.upload.tool=avrdude
+nuttyfi328.upload.protocol=arduino
+nuttyfi328.upload.maximum_size=32256
+nuttyfi328.upload.maximum_data_size=2048
+nuttyfi328.upload.speed=115200
+
+# Bootloader Settings
+nuttyfi328.bootloader.tool=avrdude
+nuttyfi328.bootloader.low_fuses=0xFF
+nuttyfi328.bootloader.high_fuses=0xDE
+nuttyfi328.bootloader.extended_fuses=0xFD
+nuttyfi328.bootloader.unlock_bits=0x3F
+nuttyfi328.bootloader.lock_bits=0x0F
+nuttyfi328.bootloader.file=optiboot/optiboot_atmega328.hex
+
+# Build Settings
+nuttyfi328.build.mcu=atmega328p
+nuttyfi328.build.f_cpu=16000000L
+nuttyfi328.build.board=AVR_NUTTYFI328
+nuttyfi328.build.core=arduino
+nuttyfi328.build.variant=nuttyfi328
+nuttyfi328.build.extra_flags=
+
+##############################################################
+
+nuttyfi2560.name=NuttyFi 2560
+
+# Upload Settings
+nuttyfi2560.upload.tool=avrdude
+nuttyfi2560.upload.protocol=wiring
+nuttyfi2560.upload.maximum_size=253952
+nuttyfi2560.upload.maximum_data_size=8192
+nuttyfi2560.upload.speed=115200
+
+# Bootloader Settings
+nuttyfi2560.bootloader.tool=avrdude
+nuttyfi2560.bootloader.low_fuses=0xFF
+nuttyfi2560.bootloader.high_fuses=0xD8
+nuttyfi2560.bootloader.extended_fuses=0xFD
+nuttyfi2560.bootloader.unlock_bits=0x3F
+nuttyfi2560.bootloader.lock_bits=0x0F
+nuttyfi2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+# Build Settings
+nuttyfi2560.build.mcu=atmega2560
+nuttyfi2560.build.f_cpu=16000000L
+nuttyfi2560.build.board=AVR_NUTTYFI2560
+nuttyfi2560.build.core=arduino
+nuttyfi2560.build.variant=nuttyfi2560
+nuttyfi2560.build.extra_flags=
