@@ -3,10 +3,10 @@
     {
       "name": "nuttyfiavr",
       "maintainer": "NuttyFi",
-      "websiteURL": "https://github.com/YOUR_GITHUB_USERNAME/NuttyFi-AVR",
+      "websiteURL": "https://github.com/diyagupta22/NuttyFi-AVR",
       "email": "your-email@example.com",
       "help": {
-        "online": "https://github.com/YOUR_GITHUB_USERNAME/NuttyFi-AVR#readme"
+       "online": "https://github.com/diyagupta22/NuttyFi-AVR#readme"
       },
       "platforms": [
         {
@@ -14,12 +14,12 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "TODO: GitHub Release download URL for nuttyfiavr-1.0.0.zip",
-          "archiveFileName": "nuttyfiavr-1.0.0.zip",
-          "checksum": "TODO: SHA-256 checksum of nuttyfiavr-1.0.0.zip",
-          "size": "TODO: archive size in bytes",
+          "url": "https://github.com/diyagupta22/NuttyFi-AVR/releases/download/v1.0.0/nuttyfi-avr-1.0.0.tar.gz",
+          "archiveFileName": "nuttyfi-avr-1.0.0.tar.gz",
+          "checksum": "SHA-256:14C3383BDF269CC396BC0FFA98261D08DF7081F35E4F0D475B9C870F7681645F",
+          "size": "4356917",
           "help": {
-            "online": "https://github.com/YOUR_GITHUB_USERNAME/NuttyFi-AVR#readme"
+           "online": "https://github.com/diyagupta22/NuttyFi-AVR#readme"
           },
           "boards": [
             {
