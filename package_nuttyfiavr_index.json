@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/diyagupta22/NuttyFi-AVR/releases/download/v1.0.0/nuttyfi-avr-1.0.0.tar.gz",
           "archiveFileName": "nuttyfi-avr-1.0.0.tar.gz",
-          "checksum": "SHA-256:8A7C0EFB48C2124372C2702CC621C337BF0565E3E4A50D158FB1A9950604FCAF",
-          "size": "463917",
+          "checksum": "SHA-256:94A88307DA7455E65DD78E09BCD342AB1B8E9716A98B495921BAE1B9AC6140EB",
+          "size": "468738",
           "help": {
            "online": "https://github.com/diyagupta22/NuttyFi-AVR#readme"
           },
@@ -43,7 +43,7 @@
             {
               "packager": "arduino",
               "name": "avrdude",
-              "version": "8.0.0-arduino1"
+              "version": "6.3.0-arduino17"
             }
           ]
         }

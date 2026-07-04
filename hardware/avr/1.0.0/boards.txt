@@ -1,5 +1,12 @@
 ##############################################################
 
+menu.cpu=Processor
+menu.speed=Upload Speed
+menu.programmer=Programmer
+menu.bootloader=Bootloader
+
+##############################################################
+
 nuttyfi328.name=NuttyFi 328
 
 # Upload Settings
@@ -28,6 +35,37 @@ nuttyfi328.build.board=AVR_NUTTYFI328
 nuttyfi328.build.core=arduino
 nuttyfi328.build.variant=nuttyfi328
 nuttyfi328.build.extra_flags=
+
+# Menu: CPU Frequency
+nuttyfi328.menu.cpu.16=NuttyFi 328 (16 MHz)
+nuttyfi328.menu.cpu.16.build.f_cpu=16000000L
+nuttyfi328.menu.cpu.8=NuttyFi 328 (8 MHz, internal)
+nuttyfi328.menu.cpu.8.build.f_cpu=8000000L
+
+# Menu: Upload Speed
+nuttyfi328.menu.speed.115200=115200
+nuttyfi328.menu.speed.115200.upload.speed=115200
+nuttyfi328.menu.speed.57600=57600
+nuttyfi328.menu.speed.57600.upload.speed=57600
+nuttyfi328.menu.speed.19200=19200
+nuttyfi328.menu.speed.19200.upload.speed=19200
+
+# Menu: Programmer (used only for "Burn Bootloader" / ISP upload)
+nuttyfi328.menu.programmer.avrispmkii=AVRISP mkII
+nuttyfi328.menu.programmer.avrispmkii.bootloader.tool=avrdude
+nuttyfi328.menu.programmer.avrispmkii.program.protocol=stk500v2
+nuttyfi328.menu.programmer.usbasp=USBasp
+nuttyfi328.menu.programmer.usbasp.bootloader.tool=avrdude
+nuttyfi328.menu.programmer.usbasp.program.protocol=usbasp
+nuttyfi328.menu.programmer.arduinoisp=Arduino as ISP
+nuttyfi328.menu.programmer.arduinoisp.bootloader.tool=avrdude
+nuttyfi328.menu.programmer.arduinoisp.program.protocol=stk500v1
+
+# Menu: Bootloader (future support / no-bootloader option)
+nuttyfi328.menu.bootloader.optiboot=Optiboot (default)
+nuttyfi328.menu.bootloader.optiboot.bootloader.file=optiboot/optiboot_atmega328.hex
+nuttyfi328.menu.bootloader.none=No bootloader (ISP upload only)
+nuttyfi328.menu.bootloader.none.bootloader.file=
 
 ##############################################################
 
@@ -59,3 +97,27 @@ nuttyfi2560.build.board=AVR_NUTTYFI2560
 nuttyfi2560.build.core=arduino
 nuttyfi2560.build.variant=nuttyfi2560
 nuttyfi2560.build.extra_flags=
+
+# Menu: CPU Frequency
+nuttyfi2560.menu.cpu.16=NuttyFi 2560 (16 MHz)
+nuttyfi2560.menu.cpu.16.build.f_cpu=16000000L
+
+# Menu: Upload Speed
+nuttyfi2560.menu.speed.115200=115200
+nuttyfi2560.menu.speed.115200.upload.speed=115200
+nuttyfi2560.menu.speed.57600=57600
+nuttyfi2560.menu.speed.57600.upload.speed=57600
+
+# Menu: Programmer (used only for "Burn Bootloader" / ISP upload)
+nuttyfi2560.menu.programmer.avrispmkii=AVRISP mkII
+nuttyfi2560.menu.programmer.avrispmkii.bootloader.tool=avrdude
+nuttyfi2560.menu.programmer.avrispmkii.program.protocol=stk500v2
+nuttyfi2560.menu.programmer.usbasp=USBasp
+nuttyfi2560.menu.programmer.usbasp.bootloader.tool=avrdude
+nuttyfi2560.menu.programmer.usbasp.program.protocol=usbasp
+
+# Menu: Bootloader (future support / no-bootloader option)
+nuttyfi2560.menu.bootloader.stk500v2=STK500v2 (default)
+nuttyfi2560.menu.bootloader.stk500v2.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+nuttyfi2560.menu.bootloader.none=No bootloader (ISP upload only)
+nuttyfi2560.menu.bootloader.none.bootloader.file=
